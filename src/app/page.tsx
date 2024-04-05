@@ -66,7 +66,7 @@ export default function Chat() {
         <input
           ref={inputRef}
           disabled={status !== "awaiting_message"}
-          className="fixed bottom-0 w-full max-w-md p-2 mb-8 border border-gray-300 rounded shadow-xl"
+          className="fixed bottom-0 w-full max-w-md p-4 mb-8 border border-gray-300 shadow-xl rounded-xl"
           value={input}
           placeholder="What is the temperature in the living room?"
           onChange={handleInputChange}
